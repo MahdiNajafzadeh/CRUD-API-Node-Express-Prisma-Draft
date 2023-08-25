@@ -1,0 +1,12 @@
+GET http://127.0.0.1:3000/api/customer/2
+###
+POST http://127.0.0.1:3000/api/customer/
+
+Content-Type: "application/json"
+
+{
+    "firstname" : "mahdi",
+    "lastname" : "najafzadeh",
+    "age" : 19,
+    "phone" : "09152050870",
+}
